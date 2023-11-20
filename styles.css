@@ -1,0 +1,77 @@
+@import url(https://fonts.google.com/specimen/Hanken+Grotesk);
+
+* {
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'hanken grotesk', Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    text-align: center; 
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.wrap {
+    margin: 200px auto;
+    background-color: antiquewhite;
+    max-width: 600px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.contenedor1 {
+    padding: 25px;
+    background-image: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 15px;
+    color: white
+}
+
+.titulo {
+    margin-bottom: 30px;
+}
+
+.circulo {
+    width: 120px;
+    height: 120px;
+    background-image: linear-gradient( hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    margin-bottom: 30px;
+    margin-left: 25%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.resultado {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.great {
+    margin-bottom: 10px;
+}
+
+.detail {
+    margin-bottom: 20px;
+}
+
+.attribution { 
+    font-size: 0.6rem; 
+    text-align: center;
+    grid-column: 1 / 1;
+    position: absolute;
+    bottom: 0px;
+    margin: 15px;
+    color: white;
+ }
+.attribution a { color: hsl(0, 0%, 89%); }
