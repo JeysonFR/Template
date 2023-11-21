@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'hanken grotesk', Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+    /*border: 1px solid red;*/
 }
 
 body {
@@ -23,7 +24,6 @@ body {
     display: grid;
     grid-template-columns: 250px 250px;
     gap: 5px;
-
     position: relative;
     box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.15);
 }
@@ -72,7 +72,6 @@ body {
 .detail {
     font-size: 0.8rem;
     font-weight: 300;
-    margin-bottom: px;
 }
 /*
 .attribution { 
@@ -97,6 +96,15 @@ body {
     border-radius: 10px;
     margin: 10px 0px;
     font-size: .7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.propiedad > .valor {
+    position: absolute;
+    right: 10px;
 }
 
 .summary {
@@ -105,24 +113,42 @@ body {
     margin-top: 10px;
 }
 
+.reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+}
 .elemento {
-    position: absolute;
+    font-weight: 600;
+    margin-left: 8px;    
 }
 
 .valor {
-    text-align: right;
-    position: relative; 
+    display: flex;
+    align-items: flex-end;
 }
 
 button {
     background-image: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: white;
-    padding: 8px;
-    margin: 20px;
+    padding: 10px;
+    margin-top: 5px;
     border-radius: 30px;
-    width: 180px;
+    width: 100%;
     font-size: 0.7rem;
-    /*position: absolute;
-    bottom: 0;
-    right: 3%;*/
+    border: none;
+}
+
+strong {
+    margin-right: 5px;
 }
