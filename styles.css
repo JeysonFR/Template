@@ -12,7 +12,6 @@ body {
     text-align: center; 
     width: 100vw;
     height: 100vh;
-    border: 1px solid black;
 }
 
 .wrap {
@@ -44,7 +43,7 @@ body {
     height: 120px;
     background-image: linear-gradient( hsl(241, 81%, 54%)30%, hsla(252, 100%, 67%, 60%));
     margin-bottom: 30px;
-    margin-left: 30px;
+    margin-left: 35px;
     margin-right: 60px;
     border-radius: 50%;
     display: flex;
@@ -139,16 +138,80 @@ body {
 }
 
 button {
-    background-image: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background-color: hsl(224, 30%, 27%);
     color: white;
-    padding: 10px;
+    padding: 15px;
     margin-top: 5px;
     border-radius: 30px;
     width: 100%;
     font-size: 0.7rem;
     border: none;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    background-image: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 strong {
     margin-right: 5px;
+}
+
+@media (max-width: 435px) {
+    body {
+        min-width: 344px;
+        box-sizing: border-box;
+    }
+
+    .wrap {
+        background-color: rgb(255, 249, 249);
+        min-width: 300px;
+        max-width: 430px;
+        border-radius: 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.15);
+        margin: 0px;
+        top: -20px;
+    }
+
+    .contenedor1 {
+        width: 100%;
+        position: relative;
+        top: -20px;
+        margin: none;
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .circulo {
+        margin-right: 50%;
+        margin-left: 50%;
+        width: 140px;
+        height: 140px;
+        margin-bottom: 30px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        
+    }
+
+    .contenedor2 {
+        padding-top: 5px;
+    }
+    
+    button {
+        margin-top: 30px;
+    }
+
+    button:active {
+        cursor: pointer;
+        background-image: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    }
+    
 }
