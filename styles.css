@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: 'hanken grotesk', Arial, Helvetica, sans-serif;
     overflow-x: hidden;
-    /*border: 1px solid red;*/
 }
 
 body {
@@ -17,7 +16,7 @@ body {
 }
 
 .wrap {
-    margin: 200px auto;
+    margin: 130px auto;
     background-color: rgb(255, 249, 249);
     max-width: 505px;
     border-radius: 15px;
@@ -128,6 +127,7 @@ body {
 .visual {
     color: hsl(234, 85%, 45%);
 }
+
 .elemento {
     font-weight: 600;
     margin-left: 8px;    
