@@ -17,10 +17,10 @@ body {
 .wrap {
     margin: 130px auto;
     background-color: rgb(255, 249, 249);
-    max-width: 505px;
+    max-width: 705px;
     border-radius: 15px;
     display: grid;
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 350px 350px;
     gap: 5px;
     position: relative;
     box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.15);
@@ -43,8 +43,9 @@ body {
     height: 120px;
     background-image: linear-gradient( hsl(241, 81%, 54%)30%, hsla(252, 100%, 67%, 60%));
     margin-bottom: 30px;
-    margin-left: 35px;
-    margin-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
