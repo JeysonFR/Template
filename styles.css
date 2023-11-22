@@ -176,6 +176,12 @@ strong {
         top: -20px;
     }
 
+    .summary {
+        font-size: 1rem;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+
     .contenedor1 {
         width: 100%;
         position: relative;
