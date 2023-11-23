@@ -11,16 +11,16 @@
 body {
     text-align: center; 
     width: 100vw;
-    height: 100vh;
+    
 }
 
 .wrap {
     margin: 130px auto;
     background-color: rgb(255, 249, 249);
-    max-width: 705px;
-    border-radius: 15px;
+    max-width: 655px;
+    border-radius: 25px;
     display: grid;
-    grid-template-columns: 350px 350px;
+    grid-template-columns: 325px 325px;
     gap: 5px;
     position: relative;
     box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.15);
@@ -29,13 +29,14 @@ body {
 .contenedor1 {
     padding: 30px;
     background-image: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    border-radius: 15px;
+    border-radius: 25px;
     color: white;
 }
 
 .titulo {
     font-weight: 300;
     margin-bottom: 30px;
+    margin-top: 5px;
 }
 
 .circulo {
@@ -65,11 +66,12 @@ body {
 .great {
     font-size: 1.2rem;
     margin-bottom: 10px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .detail {
-    font-size: 0.8rem;
+    margin: 30px 30px 10px 30px;
+    font-size: 1rem;
     font-weight: 300;
 }
 /*
@@ -93,7 +95,7 @@ body {
     background-color: rgb(244, 244, 244);
     padding: 10px;
     border-radius: 10px;
-    margin: 10px 0px;
+    margin: 15px 0px;
     font-size: .7rem;
     display: flex;
     flex-direction: row;
@@ -109,7 +111,7 @@ body {
 .summary {
     font-size: 1rem;
     margin-bottom: 30px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .reaction {
